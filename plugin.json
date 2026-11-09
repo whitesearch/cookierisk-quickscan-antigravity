@@ -1,0 +1,19 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "cookierisk-quickscan",
+  "displayName": "CookieRisk Quickscan",
+  "version": "1.0.0",
+  "description": "Check a public homepage for cookies and tracking observed before consent interaction.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Ask me for the public homepage I am authorized to scan, then run CookieRisk Quickscan.",
+    "Check my Quickscan result and summarize the observed cookies and tracking before consent.",
+    "If Quickscan reuses evidence, show the capture time and the domain cooldown end."
+  ],
+  "author": {
+    "name": "CookieRisk",
+    "url": "https://cookierisk.eu"
+  },
+  "homepage": "https://cookierisk.eu/developers/mcp",
+  "repository": "https://github.com/whitesearch/cookierisk-quickscan-antigravity"
+}
